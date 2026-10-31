@@ -92,7 +92,7 @@ python3 pdf_to_md.py document.pdf --replace 'teh=the'
 
 # Multiple replacements
 python3 pdf_to_md.py document.pdf \
-  --replace 'лт ужина=от ужина' \
+  --replace 'fom dinner=from dinner' \
   --replace 'Color=Colour'
 ```
 
@@ -140,12 +140,12 @@ Markdown with:
 
 ```bash
 python3 pdf_to_md.py \
-  "требуется ли специальный выход из голодания при 40 часовом еженедельном голодании - Google Search.pdf" \
-  -o голодание.md \
-  --replace "лт ужина=от ужина"
+  "Is a special exit from fasting required for a 40-hour weekly fast - Google Search.pdf" \
+  -o fasting.md \
+  --replace "fom dinner=from dinner"
 ```
 
-The result is `голодание.md`: 14 user turns, 37 section headings, nested lists,
+The result is `fasting.md`: 14 user turns, 37 section headings, nested lists,
 one comparison table, and a single closing disclaimer.
 
 ## Limitations
